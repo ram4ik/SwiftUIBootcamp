@@ -11,6 +11,7 @@
 		95580D8025E8409500A0CF4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D7F25E8409500A0CF4D /* ContentView.swift */; };
 		95580D8225E8409600A0CF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95580D8125E8409600A0CF4D /* Assets.xcassets */; };
 		95580D8525E8409600A0CF4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95580D8425E8409600A0CF4D /* Preview Assets.xcassets */; };
+		95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D8E25E841F500A0CF4D /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95580D8125E8409600A0CF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95580D8425E8409600A0CF4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95580D8625E8409600A0CF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95580D8E25E841F500A0CF4D /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		95580D7C25E8409500A0CF4D /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				95580D8D25E841E600A0CF4D /* Tabs */,
 				95580D7D25E8409500A0CF4D /* SwiftUIBootcampApp.swift */,
 				95580D7F25E8409500A0CF4D /* ContentView.swift */,
 				95580D8125E8409600A0CF4D /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				95580D8425E8409600A0CF4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95580D8D25E841E600A0CF4D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				95580D8E25E841F500A0CF4D /* ToggleView.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */,
 				95580D8025E8409500A0CF4D /* ContentView.swift in Sources */,
 				95580D7E25E8409500A0CF4D /* SwiftUIBootcampApp.swift in Sources */,
 			);
