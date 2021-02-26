@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
             ToggleView().tabItem { Image(systemName: "togglepower") }.tag(0)
+            TextEditorView().tabItem { Image(systemName: "doc.text.below.ecg") }.tag(1)
         }.accentColor(.primary)
     }
 }
