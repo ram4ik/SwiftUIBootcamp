@@ -37,6 +37,10 @@ struct ContentView: View {
                     Image(systemName: "scalemass")
                     Text("Alert")
                 }.tag(5)
+                PickerView().tabItem {
+                    Image(systemName: "eyedropper")
+                    Text("Picker")
+                }.tag(6)
             }
         }.accentColor(.primary)
     }
