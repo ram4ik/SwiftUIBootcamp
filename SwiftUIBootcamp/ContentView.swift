@@ -16,6 +16,7 @@ struct ContentView: View {
                 ToggleView().tabItem { Image(systemName: "togglepower") }.tag(0)
                 TextEditorView().tabItem { Image(systemName: "doc.text.below.ecg") }.tag(1)
                 TextFieldView().tabItem { Image(systemName: "textformat.abc.dottedunderline") }.tag(2)
+                ContextMenuView().tabItem { Image(systemName: "contextualmenu.and.cursorarrow")}.tag(3)
             }
         }.accentColor(.primary)
     }
