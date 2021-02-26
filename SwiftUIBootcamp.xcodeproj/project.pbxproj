@@ -13,6 +13,7 @@
 		95580D8525E8409600A0CF4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95580D8425E8409600A0CF4D /* Preview Assets.xcassets */; };
 		95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D8E25E841F500A0CF4D /* ToggleView.swift */; };
 		95580D9325E8EC9500A0CF4D /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D9225E8EC9500A0CF4D /* TextEditorView.swift */; };
+		95580D9625E8F4C100A0CF4D /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D9525E8F4C000A0CF4D /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95580D8625E8409600A0CF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95580D8E25E841F500A0CF4D /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		95580D9225E8EC9500A0CF4D /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		95580D9525E8F4C000A0CF4D /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				95580D8E25E841F500A0CF4D /* ToggleView.swift */,
 				95580D9225E8EC9500A0CF4D /* TextEditorView.swift */,
+				95580D9525E8F4C000A0CF4D /* TextFieldView.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */,
+				95580D9625E8F4C100A0CF4D /* TextFieldView.swift in Sources */,
 				95580D8025E8409500A0CF4D /* ContentView.swift in Sources */,
 				95580D9325E8EC9500A0CF4D /* TextEditorView.swift in Sources */,
 				95580D7E25E8409500A0CF4D /* SwiftUIBootcampApp.swift in Sources */,

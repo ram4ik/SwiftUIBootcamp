@@ -14,6 +14,7 @@ struct ContentView: View {
         TabView(selection: $selectedTab) {
             ToggleView().tabItem { Image(systemName: "togglepower") }.tag(0)
             TextEditorView().tabItem { Image(systemName: "doc.text.below.ecg") }.tag(1)
+            TextFieldView().tabItem { Image(systemName: "textformat.abc.dottedunderline") }.tag(2)
         }.accentColor(.primary)
     }
 }
