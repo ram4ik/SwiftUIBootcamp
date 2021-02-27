@@ -41,6 +41,10 @@ struct ContentView: View {
                     Image(systemName: "eyedropper")
                     Text("Picker")
                 }.tag(6)
+                ColorPickerView().tabItem {
+                    Image(systemName: "drop.triangle")
+                    Text("ColorPicker")
+                }.tag(7)
             }
         }.accentColor(.primary)
     }
