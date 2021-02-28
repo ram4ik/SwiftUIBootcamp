@@ -19,6 +19,7 @@
 		95580D9F25E9644700A0CF4D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D9E25E9644700A0CF4D /* AlertView.swift */; };
 		95CEE55825E9922600C70801 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE55725E9922600C70801 /* PickerView.swift */; };
 		95CEE56B25EAED0A00C70801 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */; };
+		95CEE56E25EC3B8800C70801 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE56D25EC3B8800C70801 /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		95580D9E25E9644700A0CF4D /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		95CEE55725E9922600C70801 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		95CEE56D25EC3B8800C70801 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				95580D9E25E9644700A0CF4D /* AlertView.swift */,
 				95CEE55725E9922600C70801 /* PickerView.swift */,
 				95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */,
+				95CEE56D25EC3B8800C70801 /* DatePickerView.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				95580D9C25E95EB500A0CF4D /* ActionsSheetView.swift in Sources */,
 				95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */,
 				95CEE55825E9922600C70801 /* PickerView.swift in Sources */,
+				95CEE56E25EC3B8800C70801 /* DatePickerView.swift in Sources */,
 				95580D9625E8F4C100A0CF4D /* TextFieldView.swift in Sources */,
 				95CEE56B25EAED0A00C70801 /* ColorPickerView.swift in Sources */,
 				95580D8025E8409500A0CF4D /* ContentView.swift in Sources */,

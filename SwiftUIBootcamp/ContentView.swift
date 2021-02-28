@@ -45,6 +45,10 @@ struct ContentView: View {
                     Image(systemName: "drop.triangle")
                     Text("ColorPicker")
                 }.tag(7)
+                DatePickerView().tabItem {
+                    Image(systemName: "calendar.badge.clock")
+                    Text("DatePicker")
+                }.tag(8)
             }
         }.accentColor(.primary)
     }
