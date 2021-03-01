@@ -49,6 +49,10 @@ struct ContentView: View {
                     Image(systemName: "calendar.badge.clock")
                     Text("DatePicker")
                 }.tag(8)
+                StepperView().tabItem {
+                    Image(systemName: "stethoscope")
+                    Text("Stepper")
+                }.tag(9)
             }
         }.accentColor(.primary)
     }
