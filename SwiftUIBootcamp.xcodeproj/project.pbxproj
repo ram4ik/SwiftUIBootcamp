@@ -18,6 +18,7 @@
 		95580D9925E9164A00A0CF4D /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D9825E9164A00A0CF4D /* ContextMenuView.swift */; };
 		95580D9C25E95EB500A0CF4D /* ActionsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D9B25E95EB500A0CF4D /* ActionsSheetView.swift */; };
 		95580D9F25E9644700A0CF4D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D9E25E9644700A0CF4D /* AlertView.swift */; };
+		95866FF825EFA20C0073F137 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95866FF725EFA20C0073F137 /* SliderView.swift */; };
 		95CEE55825E9922600C70801 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE55725E9922600C70801 /* PickerView.swift */; };
 		95CEE56B25EAED0A00C70801 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */; };
 		95CEE56E25EC3B8800C70801 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE56D25EC3B8800C70801 /* DatePickerView.swift */; };
@@ -37,6 +38,7 @@
 		95580D9825E9164A00A0CF4D /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 		95580D9B25E95EB500A0CF4D /* ActionsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetView.swift; sourceTree = "<group>"; };
 		95580D9E25E9644700A0CF4D /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		95866FF725EFA20C0073F137 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		95CEE55725E9922600C70801 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		95CEE56D25EC3B8800C70801 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */,
 				95CEE56D25EC3B8800C70801 /* DatePickerView.swift */,
 				1D890C7325ED7B54005430B8 /* StepperView.swift */,
+				95866FF725EFA20C0073F137 /* SliderView.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95580D9C25E95EB500A0CF4D /* ActionsSheetView.swift in Sources */,
+				95866FF825EFA20C0073F137 /* SliderView.swift in Sources */,
 				95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */,
 				95CEE55825E9922600C70801 /* PickerView.swift in Sources */,
 				95CEE56E25EC3B8800C70801 /* DatePickerView.swift in Sources */,

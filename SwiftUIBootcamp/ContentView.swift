@@ -54,6 +54,12 @@ struct ContentView: View {
                     Text("Stepper")
                 }.tag(9)
             }
+            Group {
+                SliderView().tabItem {
+                    Image(systemName: "slider.horizontal.below.rectangle")
+                    Text("Slider")
+                }.tag(10)
+            }
         }.accentColor(.primary)
     }
 }
