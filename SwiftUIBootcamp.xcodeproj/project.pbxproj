@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D890C7425ED7B54005430B8 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D890C7325ED7B54005430B8 /* StepperView.swift */; };
+		1DC9CC7025F0174A005E7B67 /* SheetTransitionOffsetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */; };
 		95580D7E25E8409500A0CF4D /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D7D25E8409500A0CF4D /* SwiftUIBootcampApp.swift */; };
 		95580D8025E8409500A0CF4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D7F25E8409500A0CF4D /* ContentView.swift */; };
 		95580D8225E8409600A0CF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95580D8125E8409600A0CF4D /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		1D890C7325ED7B54005430B8 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTransitionOffsetViews.swift; sourceTree = "<group>"; };
 		95580D7A25E8409500A0CF4D /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95580D7D25E8409500A0CF4D /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		95580D7F25E8409500A0CF4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				95CEE56D25EC3B8800C70801 /* DatePickerView.swift */,
 				1D890C7325ED7B54005430B8 /* StepperView.swift */,
 				95866FF725EFA20C0073F137 /* SliderView.swift */,
+				1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				95580D9F25E9644700A0CF4D /* AlertView.swift in Sources */,
 				95580D9325E8EC9500A0CF4D /* TextEditorView.swift in Sources */,
 				1D890C7425ED7B54005430B8 /* StepperView.swift in Sources */,
+				1DC9CC7025F0174A005E7B67 /* SheetTransitionOffsetViews.swift in Sources */,
 				95580D7E25E8409500A0CF4D /* SwiftUIBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

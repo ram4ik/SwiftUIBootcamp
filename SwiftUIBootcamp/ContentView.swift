@@ -59,6 +59,10 @@ struct ContentView: View {
                     Image(systemName: "slider.horizontal.below.rectangle")
                     Text("Slider")
                 }.tag(10)
+                SheetTransitionOffsetViews().tabItem {
+                    Image(systemName: "signpost.right.fill")
+                    Text("Popover")
+                }.tag(11)
             }
         }.accentColor(.primary)
     }
