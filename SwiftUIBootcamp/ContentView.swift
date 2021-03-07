@@ -63,6 +63,10 @@ struct ContentView: View {
                     Image(systemName: "signpost.right.fill")
                     Text("Popover")
                 }.tag(11)
+                OnAppearView().tabItem {
+                    Image(systemName: "applescript")
+                    Text("OnAppear")
+                }.tag(12)
             }
         }.accentColor(.primary)
     }
