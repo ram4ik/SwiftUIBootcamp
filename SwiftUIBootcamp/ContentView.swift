@@ -67,6 +67,10 @@ struct ContentView: View {
                     Image(systemName: "applescript")
                     Text("OnAppear")
                 }.tag(12)
+                EnvironmentObjectView().tabItem {
+                    Image(systemName: "envelope.badge.shield.leadinghalf.fill")
+                    Text("EnvironmentObject")
+                }.tag(13)
             }
         }.accentColor(.primary)
     }
