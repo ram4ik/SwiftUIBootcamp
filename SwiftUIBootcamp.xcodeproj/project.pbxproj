@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1ECD3926150F0600E76FE2 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1ECD3826150F0600E76FE2 /* MagnificationGestureView.swift */; };
 		1D890C7425ED7B54005430B8 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D890C7325ED7B54005430B8 /* StepperView.swift */; };
 		1DC9CC7025F0174A005E7B67 /* SheetTransitionOffsetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */; };
 		95379FD325FB705000DB609F /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FD225FB705000DB609F /* EnvironmentObjectView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1ECD3826150F0600E76FE2 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
 		1D890C7325ED7B54005430B8 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTransitionOffsetViews.swift; sourceTree = "<group>"; };
 		95379FD225FB705000DB609F /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */,
 				95C4DD0825F4EA7A0008B8C6 /* OnAppearView.swift */,
 				95379FD225FB705000DB609F /* EnvironmentObjectView.swift */,
+				1D1ECD3826150F0600E76FE2 /* MagnificationGestureView.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				95580D8025E8409500A0CF4D /* ContentView.swift in Sources */,
 				95580D9925E9164A00A0CF4D /* ContextMenuView.swift in Sources */,
 				95580D9F25E9644700A0CF4D /* AlertView.swift in Sources */,
+				1D1ECD3926150F0600E76FE2 /* MagnificationGestureView.swift in Sources */,
 				95580D9325E8EC9500A0CF4D /* TextEditorView.swift in Sources */,
 				1D890C7425ED7B54005430B8 /* StepperView.swift in Sources */,
 				95379FD325FB705000DB609F /* EnvironmentObjectView.swift in Sources */,

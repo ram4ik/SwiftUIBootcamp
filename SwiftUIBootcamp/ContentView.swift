@@ -71,6 +71,10 @@ struct ContentView: View {
                     Image(systemName: "envelope.badge.shield.leadinghalf.fill")
                     Text("EnvironmentObject")
                 }.tag(13)
+                MagnificationGestureView().tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("MagnificationGesture")
+                }.tag(14)
             }
         }.accentColor(.primary)
     }
