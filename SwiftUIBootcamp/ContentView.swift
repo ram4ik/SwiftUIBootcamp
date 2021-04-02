@@ -75,6 +75,10 @@ struct ContentView: View {
                     Image(systemName: "magnifyingglass")
                     Text("MagnificationGesture")
                 }.tag(14)
+                RotationGestureView().tabItem {
+                    Image(systemName: "crop.rotate")
+                    Text("RotationGesture")
+                }.tag(15)
             }
         }.accentColor(.primary)
     }
