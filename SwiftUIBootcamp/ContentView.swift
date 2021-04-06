@@ -79,6 +79,10 @@ struct ContentView: View {
                     Image(systemName: "crop.rotate")
                     Text("RotationGesture")
                 }.tag(15)
+                StartsWithMask().tabItem {
+                    Image(systemName: "star")
+                    Text("StartsWithMask")
+                }.tag(15)
             }
         }.accentColor(.primary)
     }
