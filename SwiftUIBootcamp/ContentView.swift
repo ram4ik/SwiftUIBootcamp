@@ -83,6 +83,10 @@ struct ContentView: View {
                     Image(systemName: "star")
                     Text("StartsWithMask")
                 }.tag(15)
+                SoundsView().tabItem {
+                    Image(systemName: "hifispeaker")
+                    Text("Sounds")
+                }.tag(16)
             }
         }.accentColor(.primary)
     }
