@@ -87,6 +87,10 @@ struct ContentView: View {
                     Image(systemName: "hifispeaker")
                     Text("Sounds")
                 }.tag(16)
+                HapticsAndVibrationsView().tabItem {
+                    Image(systemName: "location.viewfinder")
+                    Text("Haptics")
+                }.tag(17)
             }
         }.accentColor(.primary)
     }
