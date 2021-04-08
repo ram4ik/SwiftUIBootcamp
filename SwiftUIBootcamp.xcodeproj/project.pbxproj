@@ -15,6 +15,7 @@
 		1DA994A2261E302300B8F0EE /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DA994A0261E302300B8F0EE /* tada.mp3 */; };
 		1DA994A3261E302300B8F0EE /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DA994A1261E302300B8F0EE /* badum.mp3 */; };
 		1DBA51AB261F8E6D0088FBD7 /* HapticsAndVibrationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA51AA261F8E6D0088FBD7 /* HapticsAndVibrationsView.swift */; };
+		1DBA51AF261F944B0088FBD7 /* DebuggingTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBA51AE261F944B0088FBD7 /* DebuggingTools.swift */; };
 		1DC9CC7025F0174A005E7B67 /* SheetTransitionOffsetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */; };
 		95379FD325FB705000DB609F /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95379FD225FB705000DB609F /* EnvironmentObjectView.swift */; };
 		95580D7E25E8409500A0CF4D /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95580D7D25E8409500A0CF4D /* SwiftUIBootcampApp.swift */; };
@@ -43,6 +44,7 @@
 		1DA994A0261E302300B8F0EE /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		1DA994A1261E302300B8F0EE /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		1DBA51AA261F8E6D0088FBD7 /* HapticsAndVibrationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsAndVibrationsView.swift; sourceTree = "<group>"; };
+		1DBA51AE261F944B0088FBD7 /* DebuggingTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingTools.swift; sourceTree = "<group>"; };
 		1DC9CC6F25F0174A005E7B67 /* SheetTransitionOffsetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTransitionOffsetViews.swift; sourceTree = "<group>"; };
 		95379FD225FB705000DB609F /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		95580D7A25E8409500A0CF4D /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,14 @@
 			path = sounds;
 			sourceTree = "<group>";
 		};
+		1DBA51AD261F94280088FBD7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1DBA51AE261F944B0088FBD7 /* DebuggingTools.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		95580D7125E8409500A0CF4D = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		95580D7C25E8409500A0CF4D /* SwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				1DBA51AD261F94280088FBD7 /* Utils */,
 				95580D8D25E841E600A0CF4D /* Tabs */,
 				95580D7D25E8409500A0CF4D /* SwiftUIBootcampApp.swift */,
 				95580D7F25E8409500A0CF4D /* ContentView.swift */,
@@ -231,6 +242,7 @@
 				95580D8025E8409500A0CF4D /* ContentView.swift in Sources */,
 				1DA9949A261CE0B400B8F0EE /* StartsWithMask.swift in Sources */,
 				1DA9949D261E2D7200B8F0EE /* SoundsView.swift in Sources */,
+				1DBA51AF261F944B0088FBD7 /* DebuggingTools.swift in Sources */,
 				95580D9925E9164A00A0CF4D /* ContextMenuView.swift in Sources */,
 				1D1ECD3C261771BC00E76FE2 /* RotationGestureView.swift in Sources */,
 				95580D9F25E9644700A0CF4D /* AlertView.swift in Sources */,
