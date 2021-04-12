@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D1ECD3926150F0600E76FE2 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1ECD3826150F0600E76FE2 /* MagnificationGestureView.swift */; };
 		1D1ECD3C261771BC00E76FE2 /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1ECD3B261771BC00E76FE2 /* RotationGestureView.swift */; };
+		1D5203672624D5FE00111F0F /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5203662624D5FE00111F0F /* GeometryReaderView.swift */; };
 		1D890C7425ED7B54005430B8 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D890C7325ED7B54005430B8 /* StepperView.swift */; };
 		1DA9949A261CE0B400B8F0EE /* StartsWithMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99499261CE0B400B8F0EE /* StartsWithMask.swift */; };
 		1DA9949D261E2D7200B8F0EE /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9949C261E2D7200B8F0EE /* SoundsView.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		1D1ECD3826150F0600E76FE2 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
 		1D1ECD3B261771BC00E76FE2 /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		1D5203662624D5FE00111F0F /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		1D890C7325ED7B54005430B8 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		1DA99499261CE0B400B8F0EE /* StartsWithMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartsWithMask.swift; sourceTree = "<group>"; };
 		1DA9949C261E2D7200B8F0EE /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				1DA9949C261E2D7200B8F0EE /* SoundsView.swift */,
 				1DA9949F261E301300B8F0EE /* sounds */,
 				1DBA51AA261F8E6D0088FBD7 /* HapticsAndVibrationsView.swift */,
+				1D5203662624D5FE00111F0F /* GeometryReaderView.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				95CEE56B25EAED0A00C70801 /* ColorPickerView.swift in Sources */,
 				95580D8025E8409500A0CF4D /* ContentView.swift in Sources */,
 				1DA9949A261CE0B400B8F0EE /* StartsWithMask.swift in Sources */,
+				1D5203672624D5FE00111F0F /* GeometryReaderView.swift in Sources */,
 				1DA9949D261E2D7200B8F0EE /* SoundsView.swift in Sources */,
 				1DBA51AF261F944B0088FBD7 /* DebuggingTools.swift in Sources */,
 				95580D9925E9164A00A0CF4D /* ContextMenuView.swift in Sources */,

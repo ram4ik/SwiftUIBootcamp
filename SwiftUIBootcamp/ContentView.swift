@@ -91,6 +91,10 @@ struct ContentView: View {
                     Image(systemName: "location.viewfinder")
                     Text("Haptics")
                 }.tag(17)
+                GeometryReaderView().tabItem {
+                    Image(systemName: "dot.arrowtriangles.up.right.down.left.circle")
+                    Text("GeometryReader")
+                }.tag(17)
             }
         }.accentColor(.primary)
     }
