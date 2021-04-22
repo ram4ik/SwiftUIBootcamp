@@ -34,6 +34,7 @@
 		95CEE55825E9922600C70801 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE55725E9922600C70801 /* PickerView.swift */; };
 		95CEE56B25EAED0A00C70801 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */; };
 		95CEE56E25EC3B8800C70801 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CEE56D25EC3B8800C70801 /* DatePickerView.swift */; };
+		95EC68302631F37C00F3D285 /* DownloadJSONDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EC682F2631F37C00F3D285 /* DownloadJSONDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		95CEE55725E9922600C70801 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		95CEE56A25EAED0A00C70801 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		95CEE56D25EC3B8800C70801 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		95EC682F2631F37C00F3D285 /* DownloadJSONDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				1DA9949F261E301300B8F0EE /* sounds */,
 				1DBA51AA261F8E6D0088FBD7 /* HapticsAndVibrationsView.swift */,
 				1D5203662624D5FE00111F0F /* GeometryReaderView.swift */,
+				95EC682F2631F37C00F3D285 /* DownloadJSONDataView.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				95866FF825EFA20C0073F137 /* SliderView.swift in Sources */,
 				95580D8F25E841F500A0CF4D /* ToggleView.swift in Sources */,
 				95CEE55825E9922600C70801 /* PickerView.swift in Sources */,
+				95EC68302631F37C00F3D285 /* DownloadJSONDataView.swift in Sources */,
 				1DBA51AB261F8E6D0088FBD7 /* HapticsAndVibrationsView.swift in Sources */,
 				95C4DD0925F4EA7A0008B8C6 /* OnAppearView.swift in Sources */,
 				95CEE56E25EC3B8800C70801 /* DatePickerView.swift in Sources */,

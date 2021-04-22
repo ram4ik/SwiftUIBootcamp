@@ -96,6 +96,12 @@ struct ContentView: View {
                     Text("GeometryReader")
                 }.tag(17)
             }
+            Group {
+                DownloadJSONDataView().tabItem {
+                    Image(systemName: "icloud.and.arrow.down")
+                    Text("Download")
+                }
+            }
         }.accentColor(.primary)
     }
 }
