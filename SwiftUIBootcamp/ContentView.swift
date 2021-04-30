@@ -100,6 +100,10 @@ struct ContentView: View {
                 DownloadJSONDataView().tabItem {
                     Image(systemName: "icloud.and.arrow.down")
                     Text("Download")
+                }.tag(18)
+                NSCacheView().tabItem {
+                    Image(systemName: "opticaldiscdrive")
+                    Text("NSCache")
                 }
             }
         }.accentColor(.primary)
